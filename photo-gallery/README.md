@@ -6,3 +6,6 @@ ionic start photo-gallery tabs --type=angular --capacitor
 
 @capacitor/filesystem @capacitor/preferences @capacitor/camera
 @ionic/pwa-elements
+
+_Agrega las fotos dependencias_
+ionic g service services/photo
