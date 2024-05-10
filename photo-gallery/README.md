@@ -9,3 +9,8 @@ ionic start photo-gallery tabs --type=angular --capacitor
 
 _Agrega las fotos dependencias_
 ionic g service services/photo
+
+<!-- ionic  formar apk -->
+
+ionic build
+ionic capacitor build android
