@@ -43,27 +43,33 @@ Genera una carpeta para las dependencias
 -->
 
 ## Cómo correr el proyecto
+
 Instala ionic
+
 ```bash
   npm i -g @ionic/cli
 ```
 
 Clona este repositorio
+
 ```bash
   git clone https://github.com/edusebass/aplicacionesmoviles.git
 ```
 
 Cambia el directorio
+
 ```bash
   cd aplicacionesmoviles/photo-gallery
 ```
 
 Instala los paquetes
+
 ```bash
   npm i
 ```
 
 Correlo en la web
+
 ```bash
   ionic serve
 ```
@@ -71,21 +77,25 @@ Correlo en la web
 ## Despliegue en Android
 
 Construye con la splash screen
+
 ```bash
   Si utilizas Visual Studio Code, instala la extensión de Ionic,
-  ve a photo-gallery>Configuration>Splash Screen & Icon 
+  ve a photo-gallery>Configuration>Splash Screen & Icon
   y reconstruye
 ```
+
   <p align="center">
     <img src="./photo-gallery/src/assets/capturas/ionic_ext.jpg" width="250px">
   </p>
 
-o usa el comando: 
+o usa el comando:
+
 ```bash
   npx @capacitor/assets generate --android
 ```
 
 Construye con Android Studio
+
 ```bash
   ionic capacitor build android
 ```
@@ -118,6 +128,8 @@ Construye con Android Studio
   </p>
 
 ## Conclusiones
--
+
 - La extensión de Ionic para Visual Studio Code reduce de forma significativa la generación y construcción de un splash screen y el ícono de la apliación. En lugar de escribir algún comando solo se debe hacer clic en el Rebuild de la opción Splash Screen & Icon y listo.
 - La redacción de un buen archivo .md, que incluya instrucciones claras y evidencias de funcionamiento, facilita la reutilización del código y ayuda a cualquier interesado a correr el programa en un entorno local.
+- Ionic permite desarrollar aplicaciones móviles para múltiples plataformas (iOS, Android) utilizando una sola base de código, lo que reduce el tiempo y el esfuerzo necesarios para desarrollar y mantener aplicaciones en diferentes sistemas operativos.
+- Ionic proporciona una amplia colección de componentes de interfaz de usuario preconstruidos que aseguran una apariencia y comportamiento coherentes en todas las plataformas, mejorando la experiencia del usuario y acelerando el desarrollo.
