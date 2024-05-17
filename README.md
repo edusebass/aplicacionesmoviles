@@ -10,7 +10,7 @@ Aplicación móvil con splash screen para tomar, guardar y borrar fotos.
 - Brittany Espinel - [@brittanypallasco2003](https://github.com/brittanypallasco2003)
 - Melany Sangucho - [@SanguchoMela](https://github.com/SanguchoMela)
 
-
+<!--
 ## Cómo crear el proyecto
 
 Instala ionic
@@ -40,6 +40,7 @@ Genera una carpeta para las dependencias
 ```bash
   ionic g service services/photo
 ```
+-->
 
 ## Cómo correr el proyecto
 Instala ionic
@@ -71,7 +72,7 @@ Correlo en la web
 
 Construye con la splash screen
 ```bash
-  Si utilizas Visual Studio Code, instala la extensión de ionic,
+  Si utilizas Visual Studio Code, instala la extensión de Ionic,
   ve a photo-gallery>Configuration>Splash Screen & Icon 
   y reconstruye
 ```
@@ -89,25 +90,30 @@ Construye con Android Studio
 
 - Icono
   <p align="center">
-    <img src="./photo-gallery/src/assets/capturas/icon.jpg" width="300px">
+    <img src="./photo-gallery/src/assets/capturas/icon.jpg" width="250px">
   </p>
 
 - Splash screen
   <p align="center">
-    <img src="./photo-gallery/src/assets/capturas/splash_screen.jpg" width="300px">
+    <img src="./photo-gallery/src/assets/capturas/splash_screen.jpg" width="250px">
   </p>
 
 - Tomar fotos
   <p align="center">
-    <img src="./photo-gallery/src/assets/capturas/tomar.jpg" width="300px">
+    <img src="./photo-gallery/src/assets/capturas/tomar.jpg" width="250px">
   </p>
 
 - Eliminar fotos
   <p align="center">
-    <img src="./photo-gallery/src/assets/capturas/eliminar.jpg" width="300px">
+    <img src="./photo-gallery/src/assets/capturas/eliminar.jpg" width="250px">
   </p>
 
 - Galería de Fotos
   <p align="center">
-    <img src="./photo-gallery/src/assets/capturas/galeria.jpg" width="300px">
+    <img src="./photo-gallery/src/assets/capturas/galeria.jpg" width="250px">
   </p>
+
+## Conclusiones
+-
+- La extensión de Ionic para Visual Studio Code reduce de forma significativa la generación y construcción de un splash screen y el ícono de la apliación. En lugar de escribir algún comando solo se debe hacer clic en el Rebuild de la opción Splash Screen & Icon y listo.
+- La redacción de un buen archivo .md, que incluya instrucciones claras y evidencias de funcionamiento, facilita la reutilización del código y ayuda a cualquier interesado a correr el programa en un entorno local.
