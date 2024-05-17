@@ -42,6 +42,8 @@ ionic g service services/avatar
 npm i
 ng add @angular/fire
 
+## LA APK GENERADA SE ENCUENTRA EN EL REPO `./app-debug.apk`
+
 # ICONO DE LA APP
 
 ![alt text](image.png)
