@@ -77,7 +77,7 @@ Construye con la splash screen
   y reconstruye
 ```
   <p align="center">
-    <img src="./photo-gallery/src/assets/capturas/ionic_ext.jpg" width="100px">
+    <img src="./photo-gallery/src/assets/capturas/ionic_ext.jpg" width="250px">
   </p>
 
 o usa el comando: 
