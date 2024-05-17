@@ -76,6 +76,10 @@ Construye con la splash screen
   ve a photo-gallery>Configuration>Splash Screen & Icon 
   y reconstruye
 ```
+  <p align="center">
+    <img src="./photo-gallery/src/assets/capturas/ionic_ext.jpg" width="100px">
+  </p>
+
 o usa el comando: 
 ```bash
   npx @capacitor/assets generate --android
