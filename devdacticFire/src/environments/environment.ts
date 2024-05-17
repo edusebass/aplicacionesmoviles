@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  firebase: {
-    apiKey: "AIzaSyCI8Cq8qujSQqE4tJyrKJxr7fvuOMuut0E",
-    authDomain: "moviles-fb202.firebaseapp.com",
-    projectId: "moviles-fb202",
-    storageBucket: "moviles-fb202.appspot.com",
-    messagingSenderId: "366184884728",
-    appId: "1:366184884728:web:c051286ff8dc9b9007ce0d",
-    measurementId: "G-K52W6YYVDC"
+  firebaseConfig: {
+    apiKey: "AIzaSyCGtF4FJjZKE1_7145pt4nFsW98hLi_QrI",
+    authDomain: "a-aa1b2.firebaseapp.com",
+    projectId: "a-aa1b2",
+    storageBucket: "a-aa1b2.appspot.com",
+    messagingSenderId: "340088945622",
+    appId: "1:340088945622:web:1b71dfe349b05b239c0277",
+    measurementId: "G-T048FCYN8K"
   }
 };
